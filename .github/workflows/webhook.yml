@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [main]
   repository_dispatch:
-    types: event1
+    types: contentful-webhook
 
 jobs:
   webhook:
