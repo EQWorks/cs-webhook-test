@@ -2,19 +2,18 @@
   "name": "cs-webhook-test",
   "version": "1.0.0",
   "description": "A repo for testing external webhooks to trigger GitHub actions.",
+  "author": "EQ Works Creative Studio",
+  "license": "MIT",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EQWorks/cs-webhook-test.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/EQWorks/cs-webhook-test/issues"
   },
-  "homepage": "https://github.com/EQWorks/cs-webhook-test#readme"
+  "homepage": "https://github.com/EQWorks/cs-webhook-test#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
